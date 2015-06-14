@@ -10,7 +10,7 @@ p {
 }
 
 .brand-logo {
-    color: #FFF;
+    color: #fff;
     display: inline-block;
     width: 75px;
     height: 75px;
@@ -30,7 +30,8 @@ p {
     color: rgba(255, 255, 255, .9);
 }
 
-.parallax-container .section {
+.parallax-container 
+.section {
     width: 100%;
 }
 
@@ -39,7 +40,9 @@ p {
         position: absolute;
         top: 40%;
     }
-    #index-banner .section {
+
+    #index-banner 
+    .section {
         top: 10%;
     }
 }
@@ -54,14 +57,14 @@ p {
     padding: 0 15px;
 }
 
-footer.page-footer {
+.page-footer {
     margin: 0;
 }
 
 .hero-text {
     display: block;
     text-align: center;
-    color: #FFF;
+    color: #fff;
     text-shadow: 1px 1px 1px #595656;
     margin: 10px;
     padding: 5px;
@@ -116,7 +119,7 @@ footer.page-footer {
     left: 0;
     right: 0;
     height: 2px;
-    background: #000000;
+    background: #000;
     width: 0;
 }
 
